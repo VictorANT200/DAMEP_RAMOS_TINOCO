@@ -53,15 +53,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/TXT_CORREO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:text="@string/TXT_CORREO"
         android:textColor="#2196F3"
-        app:layout_constraintStart_toStartOf="@+id/editTextText"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_NOMBREAPELLIDO"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_NOMBREAPELLIDO" />
 
     <TextView
         android:id="@+id/textView4"
@@ -74,37 +75,40 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/TXT_FECHA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="date"
+        android:text="@string/TXT_FECHA"
         android:textColor="#2196F3"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_TELEFONO"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_TELEFONO" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/TXT_PASSWORD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:text="@string/TXT_PASSWORD"
         android:textColor="#2196F3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_CORREO"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_CORREO" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/TXT_HORA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="time"
+        android:text="@string/TXT_HORA"
         android:textColor="#2196F3"
-        app:layout_constraintStart_toStartOf="@+id/editTextDate"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_FECHA"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_FECHA" />
 
     <TextView
         android:id="@+id/textView5"
@@ -147,24 +151,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/TXT_TELEFONO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="number"
+        android:text="@string/TXT_TELEFONO"
         android:textColor="#2196F3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_PASSWORD"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_PASSWORD" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/TXT_NOMBREAPELLIDO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
+        android:text="@string/TXT_NOMBREAPELLIDO"
         android:textColor="#2196F3"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -201,15 +207,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/TXT_INGRESOS"
         android:layout_width="81dp"
         android:layout_height="38dp"
         android:layout_marginTop="1dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:text="@string/TXT_INGRESOS"
         android:textColor="#2196F3"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_PERSONAS"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_PERSONAS" />
 
     <TextView
         android:id="@+id/textView10"
@@ -222,30 +229,31 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/TXT_PERSONAS"
         android:layout_width="81dp"
         android:layout_height="44dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="15dp"
         android:ems="10"
         android:inputType="number"
+        android:text="@string/TXT_PERSONAS"
         android:textColor="#2196F3"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/RB_RURAL" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/CHECK_PERRO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="5dp"
         android:text="Perro"
         android:textColor="#0B1D76"
-        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintStart_toEndOf="@+id/CHECK_GATO"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/CHECK_GATO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -256,46 +264,47 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/CHECK_PATO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="5dp"
         android:text="Pato"
         android:textColor="#0B1D76"
-        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintStart_toEndOf="@+id/CHECK_POLLO"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/CHECK_OTRO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="5dp"
         android:text="Otro"
         android:textColor="#0B1D76"
-        app:layout_constraintStart_toEndOf="@+id/checkBox4"
+        app:layout_constraintStart_toEndOf="@+id/CHECK_PATO"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/CHECK_POLLO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="5dp"
         android:text="Pollo"
         android:textColor="#0B1D76"
-        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintStart_toEndOf="@+id/CHECK_PERRO"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/TXT_OPINION"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:text="@string/TXT_OPINION"
         android:textColor="#2196F3"
         app:layout_constraintStart_toStartOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -308,36 +317,37 @@
         android:text="Mascotas que viven en casa:"
         android:textColor="#0B1D76"
         app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+        app:layout_constraintTop_toBottomOf="@+id/TXT_OPINION" />
 
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/RB_URBANO"
         android:layout_width="115dp"
         android:layout_height="40dp"
         android:text="Urbano"
         android:textColor="#0B1D76"
-        app:layout_constraintStart_toStartOf="@+id/editTextTime"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
+        app:layout_constraintStart_toStartOf="@+id/TXT_HORA"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_HORA" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/RB_RURAL"
         android:layout_width="96dp"
         android:layout_height="40dp"
         android:text="Rural"
         android:textColor="#0B1D76"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTime"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
+        app:layout_constraintEnd_toEndOf="@+id/TXT_HORA"
+        app:layout_constraintTop_toBottomOf="@+id/TXT_HORA" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/boton_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="25dp"
+        android:backgroundTint="#1559DE"
         android:text="@string/boton_enviar"
         android:textAlignment="textEnd"
         app:icon="@drawable/baseline_send_24"
-        app:layout_constraintStart_toStartOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+        app:layout_constraintStart_toStartOf="@+id/CHECK_GATO"
+        app:layout_constraintTop_toBottomOf="@+id/CHECK_OTRO" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

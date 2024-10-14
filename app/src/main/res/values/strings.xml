@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">DAMEP_RT</string>
     <string name="boton_enviar">Enviar</string>
+    <string name="TXT_NOMBREAPELLIDO" />
+    <string name="TXT_CORREO" />
+    <string name="TXT_PASSWORD" />
+    <string name="TXT_TELEFONO" />
+    <string name="TXT_FECHA" />
+    <string name="TXT_HORA" />
+    <string name="TXT_PERSONAS" />
+    <string name="TXT_INGRESOS" />
+    <string name="TXT_OPINION" />
 </resources>
